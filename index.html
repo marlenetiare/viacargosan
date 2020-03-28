@@ -170,9 +170,6 @@
 		</div>
 	</div>
 
-
-		
-
 	<div class="aboutus" id="nosotros">
 		<div class="wrapper-sm">
 				<div class="swiper-container">
@@ -252,20 +249,21 @@
 				<div class="column-6 right-column">
 					<div class="box-contact">
 						<h4>ESCRÍBENOS</h4>
-						<form action="">
+						<div class="result-form"></div>
+						<form id="contact-form">
 							<div class="input-form flex">
 								<img src="img/user.png" class="icon" alt="Nombre">
-								<input type="text" placeholder="Nombre">
+								<input type="text" name="name" class="field" placeholder="Nombre">
 							</div>
 							<div class="input-form flex">
 								<img src="img/sobre.png" class="icon" alt="Email">
-								<input type="text" placeholder="Email">
+								<input type="text" name="email" class="field" placeholder="Email">
 							</div>
 							<div class="input-form flex">
 								<img src="img/editar.png" class="icon" alt="email">
-								<textarea name="" id="" cols="10" rows="8" placeholder="Mensaje"></textarea>
+								<textarea name="message" class="field" id="" cols="10" rows="8" placeholder="Mensaje"></textarea>
 							</div>
-							<button class="button">enviar mensaje</button>
+							<button class="button contact-btn">enviar mensaje</button>
 						</form>
 					</div>
 				</div>

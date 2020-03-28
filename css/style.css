@@ -330,9 +330,9 @@ header .icon.active .bot {
 	.mobile-menu-ul li a { padding: 20px 0; font-size: 22px; display: block; }
 	html.fixed {overflow-y: hidden;}
 	.mobile-content.up { display: block; }
-
-
 }
+
+.error-field { border-bottom: 1px solid #CA0E0E !important; }
 
 
 
